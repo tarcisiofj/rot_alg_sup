@@ -1,3 +1,9 @@
+% Funcao retorna um vetor com o número de elementos de cada valor distinto
+% do parâmetro "vetor", que foi passado.
+% Ex.: vetor = [ 1 2 2 3 3 2 1 1 1 3 3 3 ] 
+% mr = numElementos(vetor)  => mr = [4 3 5]
+% @"vetor" é um parâmetro com os números da coluna matriz base de dados
+% discretizada.
 function mr = numElements(vetor)
     n_elementos=zeros(1);
     vetor_unicos = unique(vetor);
