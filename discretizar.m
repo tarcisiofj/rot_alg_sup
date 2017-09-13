@@ -5,7 +5,7 @@ function [dados, faixas] = discretizar(dados, metodo, nFaixas)
 
 switch metodo
     case 'EWD'
-        disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - EWD']);
+        %disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - EWD']);
 
         if (nFaixas > 1)
             for i=2:size(dados, 2)
@@ -39,7 +39,7 @@ switch metodo
     
     % Observe que a quantidade de elementos por faixa pode n�o ser igual!! O que vai ser igual � a quantidade de elementos distintos por faixa!!
     case 'EFD' 
-        disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - EFD']);
+        %disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - EFD']);
         
         if (nFaixas > 1)
             nElementos = size(dados, 1);
@@ -89,7 +89,7 @@ switch metodo
         % OBS: Falta tratar o caso em que o n�mero de elementos na primeira
         % faixa estoura e muito o ideal, n�o restando elementos para as
         % outras faixas!
-        disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - MACHADO-LOPES']);
+       % disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - MACHADO-LOPES']);
 
         if (nFaixas > 1)
             total = size(dados, 1);

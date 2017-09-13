@@ -1,4 +1,4 @@
-% recebe como entrada o "vet_acertos" uma matriz que contem todas as
+% Recebe como entrada o "vet_acertos" uma matriz que contem todas as
 % porcentagens de acertos de cada atributo. Esses acertos são referentes
 % aos algoritmos de aprendizado de máquina em cima da base de dados.
 % Essa função tem a intenção de retornar a partir da entrada, uma matriz
