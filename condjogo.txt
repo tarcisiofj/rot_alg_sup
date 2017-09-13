@@ -1,0 +1,15 @@
+aspecto,temperatura,umidade,vento,decisao
+sol,quente,alta,fraco,n
+sol,quente,alta,forte,n
+nublado,quente,alta,fraco,s
+chuva,agradavel,alta,fraco,s
+chuva,fria,normal,fraco,s
+chuva,fria,normal,forte,n
+nublado,fria,normal,forte,s
+sol,agradavel,alta,fraco,n
+sol,fria,normal,fraco,s
+chuva,agradavel,normal,fraco,s
+sol,agradavel,normal,forte,s
+nublado,agradavel,alta,forte,s
+nublado,quente,normal,fraco,s
+chuva,agradavel,alta,forte,n

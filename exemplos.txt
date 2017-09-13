@@ -1,0 +1,5 @@
+fisher=importdata('condjogo_disc.txt',',',1);
+ nb = fitcnb(fisher.data(:,1:4),fisher.data(:,5)) Cria o objeto NaiveBAyes
+  islabel = resubPredict(nb1) 
+     cm1 = confusionmat(fisher.data(:,5),islabel) 
+     isgen = resubLoss(nb,'LossFun','ClassifErr') da porcentagem erro
