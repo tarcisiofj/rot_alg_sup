@@ -1,10 +1,11 @@
-numfaixa=3;
+numfaixa=4;
+V=15;
 rotina_AlgoritmosSupervisionados;
-matriz_atr_imp = atrImportantes(vet_acerto,7);
+matriz_atr_imp = atrImportantes(vet_acerto,V);
 
 for grp=1:length(matriz_atr_imp(:,1))
 
-    [mat_disc,faix] = discretizar(y(grp).mat,'EFD',numfaixa);
+    [mat_disc,faix] = discretizar(y(grp).mat,'EWD',numfaixa);
      %[mat_disc,faix] = discretizarT(y(grp).mat,3);
      disp(['Cluster ',num2str(grp),'=']);
     

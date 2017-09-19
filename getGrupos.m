@@ -11,7 +11,7 @@ fisher=importdata(arquivo,',',1);
 % crio abaixo um arquivo com todos os valores possíveis de classes,
 % referente a coluna indicada (Coluna 5 do arquivo da base dados).
 classes=unique(fisher.data(:,end));
-mat=zeros(linhas/length(classes),cols-1);
+mat=zeros(fix(linhas/length(classes)),cols-1);
 celula=struct('mat',mat,'grp',0);
 vet_grupos(1,length(classes)).mat=mat;
 vet_grupos(1,length(classes)).grp=0;

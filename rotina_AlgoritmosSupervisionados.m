@@ -1,8 +1,9 @@
 %y=getGrupos('condjogo_disc.txt');
 
-y=getGrupos('fisheriris.txt');
+y=getGrupos('glass_ok.txt');
 n_grupos=length(y(end,:));
 
+%iris_ok - naive bayes - distributionNames = mvmn
 
 cols = length(y(1).mat(end,:));
 vet_acerto(n_grupos)=0;
