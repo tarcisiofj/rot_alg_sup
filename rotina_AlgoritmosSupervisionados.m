@@ -1,6 +1,6 @@
 %y=getGrupos('condjogo_disc.txt');
 
-y=getGrupos('glass_ok.txt');
+y=getGrupos('iris_ok.txt');
 n_grupos=length(y(end,:));
 
 %iris_ok - naive bayes - distributionNames = mvmn
@@ -32,7 +32,7 @@ for ngrp=1:n_grupos
         isErro = resubLoss(nb,'LossFun','ClassifErr');
         
         % Guardar em uma estrutura de dados o valor de acerto de cada
-        % classe;
+        % classe por ;
         % Pode ser definido um vetor, onde sua posição define o grupo, e o
         % conteúdo da célula o valor;  
         vet_acerto(ngrp,classe)=100-(isErro*100);

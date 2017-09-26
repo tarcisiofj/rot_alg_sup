@@ -8,7 +8,7 @@ switch metodo
         %disp(['# Tipo de discretiza��o: ' num2str(nFaixas) ' - EWD']);
 
         if (nFaixas > 1)
-            for i=2:size(dados, 2)
+            for i=1:size(dados, 2)
                 minimo = min(dados(:, i));
                 maximo = max(dados(:, i));
                 intervalo = (maximo - minimo) / (nFaixas+1);
