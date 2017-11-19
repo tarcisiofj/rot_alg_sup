@@ -3,11 +3,16 @@
 % Sendo que a primeira linha é o cabecalho de cada atributo, separado 
 % por vírgulas;
 % E retorna uma matriz a partir dos dados do arquivo txt;
-function [y,cabecalho] = getGrupos(arquivo)
-% 
- fisher=importdata(arquivo,',',1);
- [linhas,cols]=size(fisher.data);
- cabecalho= fisher.textdata;
+% JJÁ COM A MATRIZ DISCRETIZADA
+function [y] = getGruposD(arquivo)
+
+% fisher=importdata(arquivo,',',1);
+% [linhas,cols]=size(fisher.data);
+% cabecalho= fisher.textdata;
+
+fisher = arquivo;
+% Separa em numero de linhas, e colunas
+[linhas,cols]=size(fisher.data);
 
 % crio abaixo um arquivo com todos os valores possíveis de classes,
 % referente a coluna indicada (Coluna 5 do arquivo da base dados).
@@ -17,6 +22,7 @@ mat=zeros(1,cols-1);
 celula=struct('mat',mat,'grp',0);
 vet_grupos(1,length(classes)).mat=mat;
 vet_grupos(1,length(classes)).grp=0;
+
 
 % Percorrer a base separando todas as classes em grupos(arquivos)
 % distintos;

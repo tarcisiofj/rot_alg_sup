@@ -1,6 +1,6 @@
 
 
-[y,cab]=getGrupos('iris_ok.txt');
+[y]=getGruposD(based);
 n_grupos=length(y(end,:));
 
 %iris_ok - naive bayes - distributionNames = mvmn
@@ -24,20 +24,25 @@ for ngrp=1:n_grupos
         
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','mvmn');
         
-        % principal]if 
+        % principal
         nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
-        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','Crossval','on');
+        % regression tree
+        %nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe));
+        %nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
+        %classification tree
+        %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
         %islabel = resubPredict(nb);
         %mc = confusionmat(grupo(:,classe),islabel);
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-        isErro = resubLoss(nb,'LossFun','ClassifErr');
+        isErro = resubLoss(nb);
         
-        %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
+        
+        %isErro = kfoldLoss(nb);
         
         
         

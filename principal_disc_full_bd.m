@@ -14,6 +14,17 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 %
 %%%                    
 
+
+% Importa o base de dados
+base=importdata('seeds.txt',',',1);
+
+% Pega a primeira linha da base de dados
+cab= base.textdata;
+
+[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EFD',numfaixa);
+
+based.data = [mat_disc base.data(:,end)];
+
 %rotina_AlgoritmosSupervisionados; % Rotina que faz gerar a matriz de porcentagem de acertos
 rotina_AlgoritmosSupervisionados_arvoreDecisao;
 matriz_atr_imp = atrImportantes(vet_acerto,V);
@@ -47,21 +58,27 @@ fprintf('\n======= ================== ===========');
 % discretizada toda vez q mudar o grp(cluster). 
 % 
 n=0;  % contador do registro eleFaixMatDisc;
-for grp=1:length(matriz_atr_imp(:,1))
-    % Funcao retorna a matriz discretizada e as faixas de cada
+ % Funcao retorna a matriz discretizada e as faixas de cada
     % atributo(a0,a1,a2...); 
     % Tem como entrada a matriz do grupo, tipo de discreticação (EWD,EFD) e
     % o número de faixas que desejar separar.
-    [mat_disc,faix] = discretizar(y(grp).mat,'EFD',numfaixa);      
- 
-    % Percorrer toda matriz discretizada e verificar a faixa que mais se
+
+for grp=1:length(matriz_atr_imp(:,1))
+       
+
+   
+    matriz_grupo = y(grp).mat; % variável que recebe o grupo identificado
+                                 % por grp (grupo 1, grupo 2, etc)
+    
+    % Percorrer toda matriz discretizada do grupo n-1 (na variavel "y" os 
+    % grupos começam do ZERO ao UM) e verifica a faixa que mais se
     % repete por atributo;
-    for frc=1:size(mat_disc,2) % percorrer todas as colunas da matriz
+    for frc=1:size(matriz_grupo,2) % percorrer todas as colunas da matriz
         n=n+1;
-        qtdElemFaix= numElements(mat_disc(:,frc)); %funcao recebe uma coluna 
-                                                   % e retorna a quantidade
-                                                   % de elementos de cada
-                                                   % faixa em um vetor
+        qtdElemFaix= numElements(matriz_grupo(:,frc),numfaixa); % Funcao recebe uma coluna 
+                                                       % e retorna a quantidade
+                                                       % de elementos de cada
+                                                       % faixa em um vetor
         [elem,ind]=max(qtdElemFaix);
         eleFaixMatDisc(n).grp=grp;
         eleFaixMatDisc(n).atr=frc;
@@ -69,7 +86,9 @@ for grp=1:length(matriz_atr_imp(:,1))
         eleFaixMatDisc(n).faixa=ind;
         
     end
-    %======================================================================
+    %===== =================================================================
+    
+    
     
     grpFaixa(grp).faixa=faix;
     %disp(['Cluster ',num2str(grp),'=']);    
@@ -88,38 +107,39 @@ for grp=1:length(matriz_atr_imp(:,1))
             tabela{l,2}=cab(atr);
             
             vet_elem_faixa = y(grp).mat(:,atr);
-            coluna = mat_disc(:,atr);
+            coluna = matriz_grupo(:,atr);
             % A mair quantidade de elementos do vetor discretizado é 
             % utilizado para dizer a importância da faixa.
             % Ex.: [1 1 1 2 2 2 2 2 3 3 3 ] 
             % o número que mais se repete é o 2, então a faixa 2 é a mais
             % importante do atributo escolhido. Então agora é só definir
             % qual o intervalo da faixa 2 do atributo selecionado em 'atr'.
-            qtdElem=numElements(coluna);
+            qtdElem=numElements(coluna,numfaixa);
             [elem,ind]=max(qtdElem);           
             if ind==1                   % se for a primeira faixa            
                X = ['(',num2str(atr),',',num2str(faix.(['a',int2str(atr-1)]).min),'~',num2str(faix.(['a',int2str(atr-1)]).(['f',int2str(ind)])),')'];             
-               qtd_e = numElemNaFaixa(vet_elem_faixa, faix.(['a',int2str(atr-1)]).min, faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]),true);
+               %qtd_e = numElemNaFaixa(vet_elem_faixa, faix.(['a',int2str(atr-1)]).min, faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]),true);
                tabela{l,3}=faix.(['a',int2str(atr-1)]).min;     
                tabela{l,4}=faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]);
             else
                 if ind==numfaixa        % se for a última faixa 
                     X = ['(',num2str(atr),',',num2str(faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)])),'~',num2str(faix.(['a',int2str(atr-1)]).max),')'];
-                    qtd_e = numElemNaFaixa(vet_elem_faixa,faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]), faix.(['a',int2str(atr-1)]).max,false);
+                    %qtd_e = numElemNaFaixa(vet_elem_faixa,faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]), faix.(['a',int2str(atr-1)]).max,false);
                     tabela{l,3}=faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]);     
                     tabela{l,4}=faix.(['a',int2str(atr-1)]).max;
                 else                    % não sendo a primeira e nem a última
                         X = ['(',num2str(atr),',',num2str(faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)])),'~',num2str(faix.(['a',int2str(atr-1)]).(['f',int2str(ind)])),')'];
-                        qtd_e = numElemNaFaixa(vet_elem_faixa,faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]), faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]) ,false);
-                             tabela{l,3}=faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]); 
+                        %qtd_e = numElemNaFaixa(vet_elem_faixa,faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]), faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]) ,false);
+                         tabela{l,3}=faix.(['a',int2str(atr-1)]).(['f',int2str(ind-1)]); 
                          tabela{l,4}=faix.(['a',int2str(atr-1)]).(['f',int2str(ind)]);
                 end
 
             end
-          tabela{l,6}=ind; 
+          tabela{l,6}=atr; 
           %disp(X);
           %disp(qtd_e);
-          tabela{l,5}=qtd_e;
+          tabela{l,5}=elem;
+          %tabela{l,5}=qtd_e;
           contReg=contReg+1;
           reg(contReg).grp=grp;
           reg(contReg).rot=atr;
@@ -194,15 +214,16 @@ end
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-fprintf('\n\n===== Rótulos por GRUPO =====\n');
-fprintf('\nGrupo \tAtributo \tn_Elem \tFaixa_Min~Faixa_Max');
+fprintf('\n\n===== RESULTADO =====\n');
+fprintf('\nGrupo \t#Elem \tAtributo \tFaixa_Min~Faixa_Max \tAcerto \t\tErros \t#Tx_Erros');
 
 for l=1:size(tabela,1)
-    if tabela{l,6}==1
-        fprintf('\n%d \t%s \t%d \t[%f ~ %f]',tabela{l,1},cell2mat(tabela{l,2}),tabela{l,5},tabela{l,3},tabela{l,4});
-    else            
-        fprintf('\n%d \t%s \t%d \t]%f ~ %f]',tabela{l,1},cell2mat(tabela{l,2}),tabela{l,5},tabela{l,3},tabela{l,4});
-    end
+    %if tabela{l,6}==1
+        fprintf('\n%d \t%d \t%s \t[%f ~ %f] \t%d \t\t%d \t%f',tabela{l,1},size(y(tabela{l,1}).mat(:,tabela{l,6}),1),cell2mat(tabela{l,2}),tabela{l,3},tabela{l,4},tabela{l,5},((size(y(tabela{l,1}).mat(:,tabela{l,6}),1))-tabela{l,5}),((size(y(tabela{l,1}).mat(:,tabela{l,6}),1)-tabela{l,5})*100)/(size(y(tabela{l,1}).mat(:,tabela{l,6}),1)));
+     %   fprintf('\n%d \t%s \t%d \t[%f ~ %f]',tabela{l,1},cell2mat(tabela{l,2}),tabela{l,5},tabela{l,3},tabela{l,4});
+    %else            
+      %  fprintf('\n%d \t%s \t%d \t]%f ~ %f]',tabela{l,1},cell2mat(tabela{l,2}),tabela{l,5},tabela{l,3},tabela{l,4});
+    %end
 end
 
 
@@ -213,25 +234,25 @@ end
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
-fprintf('\n\n===== Erros =====\n');
-fprintf('Grupo \t#Elem \tAtributos \tAcertos \ttx_Erros(%)');
-for g=1:size(matriz_atr_imp,1)
-    %[lin,c] = size(y(g).mat);
-    for rot=1 : size(matriz_atr_imp,2)
-        rotulo = matriz_atr_imp(g,rot);
-        cont=0;
-        if rotulo~=0
-            qtd = estaFaixa(reg,g,rotulo,y(g).mat(:,rotulo),grpFaixa);
-            %disp(['Cluster=' ,num2str(g),' #Elem =',num2str(size(y(g).mat(:,rotulo),1)),cab(rotulo),' - Erros = ',size(y(g).mat(:,rotulo),1)-qtd,'']);
-            fprintf('\n%d \t%d \t%s \t%d \t\t%f',g,size(y(g).mat(:,rotulo),1),cell2mat(cab(rotulo)),qtd,((size(y(g).mat(:,rotulo),1)-qtd)*100)/(size(y(g).mat(:,rotulo),1)));
-            
-        end
-        
-    end
-    
-
-   
-end
+% fprintf('\n\n===== Erros =====\n');
+% fprintf('Grupo \t#Elem \tAtributos \tAcertos \ttx_Erros(%)');
+% for g=1:size(matriz_atr_imp,1)
+%     %[lin,c] = size(y(g).mat);
+%     for rot=1 : size(matriz_atr_imp,2)
+%         rotulo = matriz_atr_imp(g,rot);
+%         cont=0;
+%         if rotulo~=0
+%             qtd = estaFaixa(reg,g,rotulo,y(g).mat(:,rotulo),grpFaixa);
+%             %disp(['Cluster=' ,num2str(g),' #Elem =',num2str(size(y(g).mat(:,rotulo),1)),cab(rotulo),' - Erros = ',size(y(g).mat(:,rotulo),1)-qtd,'']);
+%             fprintf('\n%d \t%d \t%s \t%d \t\t%f',g,size(y(g).mat(:,rotulo),1),cell2mat(cab(rotulo)),qtd,((size(y(g).mat(:,rotulo),1)-qtd)*100)/(size(y(g).mat(:,rotulo),1)));
+%             
+%         end
+%         
+%     end
+%     
+% 
+%    
+% end
 
 
 %
@@ -241,59 +262,59 @@ end
 % possue valor respectivo do 1º rótulo e também no 2º rótulo. Caso exista
 % valores nos respectivos rótulos no registro, isso quer dizer que o
 % registro de fato define o rótulo.
-fprintf('\n\n');
-for g = 1 : size(matriz_atr_imp,1) % Pega cada linha da matriz_atr_imp
-                                   % que significa o grupo. Nessa matriz
-                                   % define os rótulos(col) de cada grupo.
-    cont=0;
-    
-    matrizPorGrupo = y(g).mat;     % var recebe todos os registros do grupo 
-    for l = 1 : size(matrizPorGrupo,1)
-        vetRot=matriz_atr_imp(g,:); % var recebe um vetor com todos os rótulos
-        status=true;  % variável de controle para saber se na linha de registro
-                      % do grupo existem valores em seus respectivos rótulos.
-        loop=0;
-        for rot = 1 : size(vetRot,2) % percorre o vetor de rótulos
-            rotulo=vetRot(rot);
-            if rotulo~=0 % se houver rótulo válido no vetor
-                valor = matrizPorGrupo(l,rotulo);
-                
-                for linR = 1 : size(reg,2)
-                    if (reg(linR).grp==g) && (reg(linR).rot==vetRot(rot))
-                        % Caso o valor pertença a primeira faixa
-                        if ( valor<=grpFaixa(g).faixa.(['a',int2str(rot-1)]).f1 )
-                            loop=1;
-                            if valor>=reg(linR).faixa_inf && valor<=reg(linR).faixa_sup
-                                status=status && true;
-                            else
-                                status=status && false;
-                            end
-                            
-                        else
-                            if valor>=reg(linR).faixa_inf && valor<reg(linR).faixa_sup
-                                status=status && true;
-                            else
-                                status=status && false;
-                            end
-                            
-                        end                        
-                    end
-                end
-            end
-        end
-        if status && loop
-            cont=cont+1;
-        end
-    end
-    
-    disp(['Cluster=' ,num2str(g),' #Elem =',num2str(size(y(g).mat,1)),' - Nº Reg do Rótulo = ',num2str(cont)]);
-    figure;
-    vl=[(size(y(g).mat,1)-cont) cont];
-    pie(vl,[0 1]);
-    title(['Cluster ',num2str(g)]);
-    legend('Registros Não-Rótulos','Registros Rótulo(s)');
-    
-end
+% fprintf('\n\n');
+% for g = 1 : size(matriz_atr_imp,1) % Pega cada linha da matriz_atr_imp
+%                                    % que significa o grupo. Nessa matriz
+%                                    % define os rótulos(col) de cada grupo.
+%     cont=0;
+%     
+%     matrizPorGrupo = y(g).mat;     % var recebe todos os registros do grupo 
+%     for l = 1 : size(matrizPorGrupo,1)
+%         vetRot=matriz_atr_imp(g,:); % var recebe um vetor com todos os rótulos
+%         status=true;  % variável de controle para saber se na linha de registro
+%                       % do grupo existem valores em seus respectivos rótulos.
+%         loop=0;
+%         for rot = 1 : size(vetRot,2) % percorre o vetor de rótulos
+%             rotulo=vetRot(rot);
+%             if rotulo~=0 % se houver rótulo válido no vetor
+%                 valor = matrizPorGrupo(l,rotulo);
+%                 
+%                 for linR = 1 : size(reg,2)
+%                     if (reg(linR).grp==g) && (reg(linR).rot==vetRot(rot))
+%                         % Caso o valor pertença a primeira faixa
+%                         if ( valor<=grpFaixa(g).faixa.(['a',int2str(rot-1)]).f1 )
+%                             loop=1;
+%                             if valor>=reg(linR).faixa_inf && valor<=reg(linR).faixa_sup
+%                                 status=status && true;
+%                             else
+%                                 status=status && false;
+%                             end
+%                             
+%                         else
+%                             if valor>=reg(linR).faixa_inf && valor<reg(linR).faixa_sup
+%                                 status=status && true;
+%                             else
+%                                 status=status && false;
+%                             end
+%                             
+%                         end                        
+%                     end
+%                 end
+%             end
+%         end
+%         if status && loop
+%             cont=cont+1;
+%         end
+%     end
+%     
+%     disp(['Cluster=' ,num2str(g),' #Elem =',num2str(size(y(g).mat,1)),' - Nº Reg do Rótulo = ',num2str(cont)]);
+%     figure;
+%     vl=[(size(y(g).mat,1)-cont) cont];
+%     pie(vl,[0 1]);
+%     title(['Cluster ',num2str(g)]);
+%     legend('Registros Não-Rótulos','Registros Rótulo(s)');
+%     
+% end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
