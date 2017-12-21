@@ -25,24 +25,24 @@ for ngrp=1:n_grupos
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','mvmn');
         
         % principal
-        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
-        
+         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
+        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
         % regression tree
         %nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe));
         %nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
         %classification tree
-        %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
+        nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
         %islabel = resubPredict(nb);
         %mc = confusionmat(grupo(:,classe),islabel);
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-        isErro = resubLoss(nb);
+       % isErro = resubLoss(nb);
         
         
-        %isErro = kfoldLoss(nb);
+        isErro = kfoldLoss(nb);
         
         
         

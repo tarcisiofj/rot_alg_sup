@@ -4,9 +4,9 @@
 % Área de definição de variáveis
 %
 %
-numfaixa=3;         % quantidade de faixas dos valores a serem discretizado,
+numfaixa=4;         % quantidade de faixas dos valores a serem discretizado,
                     %  maior q 1;
-V=5;                % porcentagem de abrangencia dos valore do rótulo, 
+V=15;                % porcentagem de abrangencia dos valore do rótulo, 
                     %  ex. -10 e +10
 l=0;                % num linhas da tabela;
 tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
@@ -16,12 +16,12 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 
 
 % Importa o base de dados
-base=importdata('seeds.txt',',',1);
+base=importdata('glass_ok.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
 
-[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EFD',numfaixa);
+[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EWD',numfaixa);
 
 based.data = [mat_disc base.data(:,end)];
 
