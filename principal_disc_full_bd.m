@@ -4,9 +4,9 @@
 % Área de definição de variáveis
 %
 %
-numfaixa=4;         % quantidade de faixas dos valores a serem discretizado,
+numfaixa=3;         % quantidade de faixas dos valores a serem discretizado,
                     %  maior q 1;
-V=15;                % porcentagem de abrangencia dos valore do rótulo, 
+V=0;                % porcentagem de abrangencia dos valore do rótulo, 
                     %  ex. -10 e +10
 l=0;                % num linhas da tabela;
 tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
@@ -15,17 +15,97 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 %%%                    
 
 
-% Importa o base de dados
-base=importdata('glass_ok.txt',',',1);
+% Importa o base de dados (dos 3 parâmetros o 1o. é a base, o 2o. é o
+% delimitador dos campos e 3o. é a linha de cabeçalho qeu existe)
+base=importdata('iris_ok.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
 
-[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EWD',numfaixa);
+% Inicia a discretização. Ao final do loop uma variavel matrizCompleta irá
+% guardar em da linha uma estrutura seguida de matriz discretizada e
+% delimitações das faixas, onde cada linha corresponderá a linha da tabela
+% descritora gerada pela função geraMatrizArranjo.
+
+
+% Será criado a partir da funcao geraMatrizArranjo uma tabela que servira
+% de roteiro(descritor), onde cada linha determinara qual a quantidade de
+% faixas que será feita a divisao dos dados em cada coluna. 
+% ex. [ 2 3 2 ] usando essa matriz como descritora será feita a 
+% discretização da 1a.col com 2 faixas, a 2a. col com 3 faixas e a 3a. col 
+% com 2 faixas.
+ m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
+ md=flip(m,2); % espelha a matriz m;
+ for loop =1: size(md,1)
+     for cols=1: size(md,2)
+        [mat_disc,faix] = discretizar(base.data(:,cols),'EFD',md(loop,cols));
+        tabelaAux.matriz(:,cols)=mat_disc(:,1);
+        tabelaAux.faixas(cols)=faix;
+        clear mat_disc;
+        [mat_disc,faix] = discretizar(base.data(:,cols),'EWD',md(loop,cols));
+        tabelaAux2.matriz(:,cols)=mat_disc(:,1);
+        tabelaAux2.faixas(cols)=faix;
+        clear mat_disc;
+
+     end     
+     matrizCompleta{loop,1}=tabelaAux; % linha 1
+     matrizCompleta{loop,2}=tabelaAux2;
+     mat(loop)=loop;
+     clear tabelaAux;
+     clear tabelaAux2;
+     
+ 
+ end
+
+ for loop =1 : size(matrizCompleta,1)
+     
+     %%%% CART
+%      nb=fitctree(matrizCompleta{loop,1}.matriz,base.data(:,end),'Crossval','on');  
+%      isErro = kfoldLoss(nb);
+%      acerto=100-(isErro*100);
+%      matrizPlot(loop,1)=acerto;
+%      
+%      nb=fitctree(matrizCompleta{loop,2}.matriz,base.data(:,end),'Crossval','on');  
+%      isErro = kfoldLoss(nb);
+%      acerto=100-(isErro*100);
+%      matrizPlot(loop,2)=acerto;
+
+     %%%%%% NAIVE BAYES
+     nb=fitcnb(matrizCompleta{loop,1}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+     isErro = kfoldLoss(nb);
+     acerto=100-(isErro*100);
+     matrizPlot(loop,1)=acerto;
+     nb=fitcnb(matrizCompleta{loop,2}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+     isErro = kfoldLoss(nb);
+     acerto=100-(isErro*100);
+     matrizPlot(loop,2)=acerto;
+     
+ end
+%  maior=max(matrizPlot);
+%  n=1;
+%  for loop =1: size(matrizPlot,1)
+%      valor=matrizPlot(loop,1);
+%      if (valor<=maior) && (valor>=maior-1)
+%         matrizMaiores(n,1)=valor;
+%         n=n+1;
+%      end
+%  
+%  end
+%  
+%  figure;
+%  plot(matrizPlot);
+figure;
+plot(matrizPlot(:,1));
+figure;
+plot(matrizPlot(:,2));
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EFD',numfaixa);
 
 based.data = [mat_disc base.data(:,end)];
 
-%rotina_AlgoritmosSupervisionados; % Rotina que faz gerar a matriz de porcentagem de acertos
+%min; % Rotina que faz gerar a matriz de porcentagem de acertos
 rotina_AlgoritmosSupervisionados_arvoreDecisao;
 matriz_atr_imp = atrImportantes(vet_acerto,V);
 contReg=0;
