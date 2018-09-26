@@ -34,7 +34,8 @@ cab= base.textdata;
 % ex. [ 2 3 2 ] usando essa matriz como descritora será feita a 
 % discretização da 1a.col com 2 faixas, a 2a. col com 3 faixas e a 3a. col 
 % com 2 faixas.
- m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
+% m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
+ m=geraMatrizArranjo(size(base.data,2)-1,[3 4 5]);
  md=flip(m,2); % espelha a matriz m;
  for loop =1: size(md,1)
      for cols=1: size(md,2)
@@ -57,6 +58,9 @@ cab= base.textdata;
  
  end
 
+ % Será realizado testes com os algoritmos com os dados da tabela
+ % descritor "matrizCompleta", utilizando o o rotulo original de cada linha
+ % para medir qual maior valor.
  for loop =1 : size(matrizCompleta,1)
      
      %%%% CART
@@ -81,27 +85,40 @@ cab= base.textdata;
      matrizPlot(loop,2)=acerto;
      
  end
-%  maior=max(matrizPlot);
-%  n=1;
-%  for loop =1: size(matrizPlot,1)
-%      valor=matrizPlot(loop,1);
-%      if (valor<=maior) && (valor>=maior-1)
-%         matrizMaiores(n,1)=valor;
-%         n=n+1;
-%      end
-%  
-%  end
-%  
-%  figure;
-%  plot(matrizPlot);
+
 figure;
 plot(matrizPlot(:,1));
 figure;
 plot(matrizPlot(:,2));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Escolhe a linha(maiorValorInd) e coluna na matrizCompleta que possui o
+% melhor resultado de discretização, onde o valor a coluna define o tipo de
+% discretização aplicado.
 
-[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EFD',numfaixa);
+%[mat_disc,faix] = discretizar(base.data(:,1:end-1),'EFD',numfaixa);
+if max(max(matrizPlot(:,1))) == max(max(matrizPlot(:,2)))
+    [maiorvalorEFD maiorValorIndEFD]=max(matrizPlot(:,1));
+    [maiorvalorEWD maiorValorIndEWD]=max(matrizPlot(:,2));
+    if maiorValorIndEFD > maiorValorIndEWD
+        maiorValorInd=maiorvalorEWD;
+        metodoDiscretizacao=2;
+    else
+        maiorValorInd=maiorvalorEFD;
+        metodoDiscretizacao=1;
+    end
+else if max(max(matrizPlot(:,1))) > max(max(matrizPlot(:,2)))
+    [maiorvalor maiorValorInd]=max(matrizPlot(:,1));
+    metodoDiscretizacao=1;
+else
+    [maiorvalor maiorValorInd]=max(matrizPlot(:,2));
+    metodoDiscretizacao=2;
+    end
+end
+
+mat_disc = matrizCompleta{maiorValorInd,metodoDiscretizacao}.matriz;
+
+
 
 based.data = [mat_disc base.data(:,end)];
 
@@ -155,7 +172,7 @@ for grp=1:length(matriz_atr_imp(:,1))
     % repete por atributo;
     for frc=1:size(matriz_grupo,2) % percorrer todas as colunas da matriz
         n=n+1;
-        qtdElemFaix= numElements(matriz_grupo(:,frc),numfaixa); % Funcao recebe uma coluna 
+        qtdElemFaix= numElements(matriz_grupo(:,frc),md(maiorValorInd,frc)); % Funcao recebe uma coluna 
                                                        % e retorna a quantidade
                                                        % de elementos de cada
                                                        % faixa em um vetor

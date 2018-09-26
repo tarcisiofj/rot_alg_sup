@@ -27,7 +27,7 @@ for ngrp=1:n_grupos
         %%% Para aplicar NaiveBayes descomentar a linha abaixo de acordo
         %%% com  a distribuição desejada, kernel ou crossval
          %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
-         % nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+          nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
         
         
         %%% para aplicar o algoritmo para CART descomente linha referente
@@ -39,7 +39,7 @@ for ngrp=1:n_grupos
                % nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
         %%% classification tree
-                nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
+                %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
                 
         %islabel = resubPredict(nb);
@@ -47,10 +47,10 @@ for ngrp=1:n_grupos
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-        isErro = resubLoss(nb);
+       % isErro = resubLoss(nb);
         
         
-        %isErro = kfoldLoss(nb);
+        isErro = kfoldLoss(nb);
         
         
         
