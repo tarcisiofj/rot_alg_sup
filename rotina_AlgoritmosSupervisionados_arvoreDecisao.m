@@ -1,5 +1,3 @@
-
-
 [y]=getGruposD(based);
 n_grupos=length(y(end,:));
 
@@ -7,9 +5,8 @@ n_grupos=length(y(end,:));
 
 cols = length(y(1).mat(end,:));
 vet_acerto(n_grupos)=0;
-
  
- % Vai fazer um loop percorrendo todos os grupos;
+% Vai fazer um loop percorrendo todos os grupos;
 for ngrp=1:n_grupos
     % O n_esimo grupo escolhido para fazer os teste com o algoritmo
     % supervisionado;
@@ -20,39 +17,53 @@ for ngrp=1:n_grupos
         classe=cols_mat;
         % Funcao retorna nesta variavel as colunas que não sao classes da
         % matriz;
-        vet_col_semClasse=getMatrizSemClasseX(grupo,classe);
-        
+        vet_col_semClasse=getMatrizSemClasseX(grupo,classe);      
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','mvmn');
         
+        %=================================================================
         %%% Para aplicar NaiveBayes descomentar a linha abaixo de acordo
         %%% com  a distribuição desejada, kernel ou crossval
-         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
-          nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
+        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+        isErro = kfoldLoss(nb);
         
-        %%% para aplicar o algoritmo para CART descomente linha referente
-        %%% ao tipo de base de com valores continuos(regression) ou
-        %%% discretizado (classification)
+        %=================================================================
         
-        %%% regression tree
+        %=================================================================
+        %%% Para aplicar o algoritmo para CART descomente linha referente
+        % ao tipo de base de com valores continuos(regression) ou
+        % discretizado (classification)
+        
+        % regression tree
                 %nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe));
                % nb=fitrtree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
-        %%% classification tree
+        % classification tree
                 %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
-                
-        %islabel = resubPredict(nb);
-        %mc = confusionmat(grupo(:,classe),islabel);
+            % metodo para achar a matriz de confusão    
+            %islabel = resubPredict(nb);
+            %mc = confusionmat(grupo(:,classe),islabel);
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-       % isErro = resubLoss(nb);
+         %isErro = resubLoss(nb);
+         %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
         
+        %===============================================================
         
-        isErro = kfoldLoss(nb);
+        %===============================================================
+        %%% Aplicaçao com o algoritmo knn
         
+        %   knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
+        %   isErro = kfoldLoss(knn);
+                
         
+        %===============================================================
+       
+        
+        %===============================================================
         
         % Guardar em uma estrutura de dados o valor de acerto de cada
         % classe por ;
@@ -60,6 +71,7 @@ for ngrp=1:n_grupos
         % conteúdo da célula o valor;  
         vet_acerto(ngrp,classe)=100-(isErro*100);
         
+        %===============================================================
         % fazer 10 calculos utilizando a mesma matriz so que embaralhando
         % suas linhas para verificar se existe diferença entre os
         % resultados
@@ -75,7 +87,7 @@ for ngrp=1:n_grupos
            % isErrGen = loss(nb1,teste(:,1:end-1),teste(:,end));
             
         %end
-        
+        %===============================================================
       
        
     end  

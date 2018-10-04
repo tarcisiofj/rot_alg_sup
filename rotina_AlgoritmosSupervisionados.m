@@ -25,20 +25,21 @@ for ngrp=1:n_grupos
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','mvmn');
         
         % principal]if 
-        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
+       % nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
-        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','Crossval','on');
         
+       nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','Crossval','on');
+
         
         %islabel = resubPredict(nb);
         %mc = confusionmat(grupo(:,classe),islabel);
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-        isErro = resubLoss(nb,'LossFun','ClassifErr');
+       
         
-        %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
-        
+        isErro = kfoldLoss(nb,'LossFun','ClassifErr');
+        mc = confusionmat(grupo(:,classe),isErro);
         
         
         % Guardar em uma estrutura de dados o valor de acerto de cada
