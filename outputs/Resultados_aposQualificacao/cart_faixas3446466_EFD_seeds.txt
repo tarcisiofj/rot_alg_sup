@@ -1,0 +1,537 @@
+======= RESULTADO  EFD ==========
+
+
+======= Atributos Relevantes ==========
+Grupo  1:  area  
+Grupo  2:  perimetro  
+Grupo  3:  wkernel  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	56
+3 	5
+perimetro = 4 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	36
+3 	30
+4 	0
+compacteness = 4 faixas:
+Faixa 	Qtd Elementos
+1 	5
+2 	18
+3 	25
+4 	22
+Lkernel = 6 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	8
+3 	20
+4 	29
+5 	5
+6 	0
+wkernel = 4 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	34
+3 	31
+4 	1
+asymetry = 6 faixas:
+Faixa 	Qtd Elementos
+1 	25
+2 	20
+3 	13
+4 	7
+5 	2
+6 	3
+lkgroove = 6 faixas:
+Faixa 	Qtd Elementos
+1 	22
+2 	19
+3 	16
+4 	12
+5 	1
+6 	0
+GRUPO 2:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	6
+3 	64
+perimetro = 4 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	19
+4 	51
+compacteness = 4 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	16
+3 	24
+4 	28
+Lkernel = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	2
+4 	4
+5 	30
+6 	34
+wkernel = 4 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	1
+3 	20
+4 	49
+asymetry = 6 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	12
+3 	13
+4 	16
+5 	12
+6 	8
+lkgroove = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	1
+3 	0
+4 	6
+5 	30
+6 	33
+GRUPO 3:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	62
+2 	8
+3 	0
+perimetro = 4 faixas:
+Faixa 	Qtd Elementos
+1 	48
+2 	22
+3 	0
+4 	0
+compacteness = 4 faixas:
+Faixa 	Qtd Elementos
+1 	40
+2 	20
+3 	6
+4 	4
+Lkernel = 6 faixas:
+Faixa 	Qtd Elementos
+1 	27
+2 	29
+3 	14
+4 	0
+5 	0
+6 	0
+wkernel = 4 faixas:
+Faixa 	Qtd Elementos
+1 	49
+2 	21
+3 	0
+4 	0
+asymetry = 6 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	4
+3 	8
+4 	11
+5 	20
+6 	26
+lkgroove = 6 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	29
+3 	19
+4 	10
+5 	0
+6 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+area 	2 	56
+perimetro 	2 	36
+compacteness 	3 	25
+Lkernel 	4 	29
+wkernel 	2 	34
+asymetry 	1 	25
+lkgroove 	1 	22
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+area 	3 	64
+perimetro 	4 	51
+compacteness 	4 	28
+Lkernel 	6 	34
+wkernel 	4 	49
+asymetry 	4 	16
+lkgroove 	6 	33
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+area 	1 	62
+perimetro 	1 	48
+compacteness 	1 	40
+Lkernel 	2 	29
+wkernel 	1 	49
+asymetry 	6 	26
+lkgroove 	2 	29
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	area 	[12.780000 ~ 16.140000] 	56 		14 	20.000000
+2 	70 	perimetro 	[15.760000 ~ 17.250000] 	51 		19 	27.142857
+3 	70 	wkernel 	[2.630000 ~ 2.941000] 	49 		21 	30.000000
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   90.0000   80.0000   42.8571   58.5714   78.5714   37.1429   38.5714
+   88.5714   91.4286   54.2857   81.4286   75.7143   31.4286   78.5714
+   95.7143   91.4286   58.5714   75.7143   97.1429   32.8571   50.0000
+
+
+
+
+======= RESULTADO COM FAIXAS 3 - EFD ==========
+
+======= Atributos Relevantes ==========
+Grupo  1:  perimetro  
+Grupo  2:  area   perimetro  
+Grupo  3:  wkernel  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	56
+3 	5
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	10
+2 	56
+3 	4
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	33
+3 	29
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	16
+2 	49
+3 	5
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	52
+3 	7
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	45
+2 	20
+3 	5
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	42
+2 	27
+3 	1
+GRUPO 2:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	6
+3 	64
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	7
+3 	63
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	30
+3 	34
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	6
+3 	64
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	10
+3 	60
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	22
+2 	29
+3 	19
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	8
+3 	61
+GRUPO 3:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	62
+2 	8
+3 	0
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	65
+2 	5
+3 	0
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	51
+2 	13
+3 	6
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	56
+2 	14
+3 	0
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	61
+2 	9
+3 	0
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	5
+2 	20
+3 	45
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	41
+2 	29
+3 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+area 	2 	56
+perimetro 	2 	56
+compacteness 	2 	33
+Lkernel 	2 	49
+wkernel 	2 	52
+asymetry 	1 	45
+lkgroove 	1 	42
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+area 	3 	64
+perimetro 	3 	63
+compacteness 	3 	34
+Lkernel 	3 	64
+wkernel 	3 	60
+asymetry 	2 	29
+lkgroove 	3 	61
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+area 	1 	62
+perimetro 	1 	65
+compacteness 	1 	51
+Lkernel 	1 	56
+wkernel 	1 	61
+asymetry 	3 	45
+lkgroove 	1 	41
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	perimetro 	[13.730000 ~ 15.180000] 	56 		14 	20.000000
+2 	70 	area 	[16.140000 ~ 21.180000] 	64 		6 	8.571429
+2 	70 	perimetro 	[15.180000 ~ 17.250000] 	63 		7 	10.000000
+3 	70 	wkernel 	[2.630000 ~ 3.049000] 	61 		9 	12.857143
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   91.4286   94.2857   58.5714   77.1429   85.7143   62.8571   58.5714
+   98.5714   98.5714   48.5714   91.4286   88.5714   41.4286   91.4286
+   92.8571   95.7143   80.0000   88.5714   97.1429   58.5714   77.1429
+
+
+
+
+======= RESULTADO COM FAIXAS 3 - EWD ==========
+
+======= Atributos Relevantes ==========
+Grupo  1:  perimetro  
+Grupo  2:  perimetro  
+Grupo  3:  area  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	14
+2 	49
+3 	7
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	48
+3 	13
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	9
+3 	61
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	13
+2 	50
+3 	7
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	40
+3 	24
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	36
+2 	30
+3 	4
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	27
+2 	42
+3 	1
+GRUPO 2:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	5
+3 	65
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	1
+3 	69
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	7
+3 	63
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	5
+3 	65
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	3
+3 	67
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	15
+2 	40
+3 	15
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	2
+3 	68
+GRUPO 3:  
+area = 3 faixas:
+Faixa 	Qtd Elementos
+1 	67
+2 	3
+3 	0
+perimetro = 3 faixas:
+Faixa 	Qtd Elementos
+1 	60
+2 	10
+3 	0
+compacteness = 3 faixas:
+Faixa 	Qtd Elementos
+1 	19
+2 	34
+3 	17
+Lkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	54
+2 	16
+3 	0
+wkernel = 3 faixas:
+Faixa 	Qtd Elementos
+1 	56
+2 	14
+3 	0
+asymetry = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	26
+3 	40
+lkgroove = 3 faixas:
+Faixa 	Qtd Elementos
+1 	22
+2 	48
+3 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+area 	2 	49
+perimetro 	2 	48
+compacteness 	3 	61
+Lkernel 	2 	50
+wkernel 	2 	40
+asymetry 	1 	36
+lkgroove 	2 	42
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+area 	3 	65
+perimetro 	3 	69
+compacteness 	3 	63
+Lkernel 	3 	65
+wkernel 	3 	67
+asymetry 	2 	40
+lkgroove 	3 	68
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+area 	1 	67
+perimetro 	1 	60
+compacteness 	2 	34
+Lkernel 	1 	54
+wkernel 	1 	56
+asymetry 	3 	40
+lkgroove 	2 	48
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	perimetro 	[13.620000 ~ 14.830000] 	48 		22 	31.428571
+2 	70 	perimetro 	[14.830000 ~ 17.250000] 	69 		1 	1.428571
+3 	70 	area 	[10.590000 ~ 13.237500] 	67 		3 	4.285714
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   84.2857   91.4286   82.8571   90.0000   62.8571   31.4286   77.1429
+   95.7143   97.1429   91.4286   94.2857   97.1429   51.4286   94.2857
+   95.7143   87.1429   50.0000   81.4286   74.2857   54.2857   70.0000
+
+>> 

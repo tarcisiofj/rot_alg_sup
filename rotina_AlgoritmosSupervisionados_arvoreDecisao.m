@@ -25,8 +25,8 @@ for ngrp=1:n_grupos
         %%% com  a distribuição desejada, kernel ou crossval
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
-        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
-        isErro = kfoldLoss(nb);
+        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+        %isErro = kfoldLoss(nb);
         
         %=================================================================
         
@@ -56,8 +56,8 @@ for ngrp=1:n_grupos
         %===============================================================
         %%% Aplicaçao com o algoritmo knn
         
-        %   knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
-        %   isErro = kfoldLoss(knn);
+           knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
+           isErro = kfoldLoss(knn);
                 
         
         %===============================================================

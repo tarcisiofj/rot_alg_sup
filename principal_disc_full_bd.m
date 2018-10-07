@@ -17,7 +17,7 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 
 % Importa o base de dados (dos 3 parâmetros o 1o. é a base, o 2o. é o
 % delimitador dos campos e 3o. é a linha de cabeçalho qeu existe)
-base=importdata('seeds.txt',',',1);
+base=importdata('glass_ok.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
@@ -37,7 +37,7 @@ cab= base.textdata;
 % m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
  m=geraMatrizArranjo(size(base.data,2)-1,[3 4 5 6]);
  md=flip(m,2); % espelha a matriz m;
- parada=4000;
+ parada=2000;
  for loop =1: size(md,1)
      for cols=1: size(md,2)
         [mat_disc,faix] = discretizar(base.data(:,cols),'EFD',md(loop,cols));
@@ -52,6 +52,16 @@ cab= base.textdata;
      end     
      matrizCompleta{loop,1}=tabelaAux; % linha 1
      matrizCompleta{loop,2}=tabelaAux2;
+     
+     nb=fitcnb(matrizCompleta{loop,1}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+     isErro = kfoldLoss(nb);
+     acerto=100-(isErro*100);
+     matrizPlot(loop,1)=acerto;
+     nb=fitcnb(matrizCompleta{loop,2}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+     isErro = kfoldLoss(nb);
+     acerto=100-(isErro*100);
+     matrizPlot(loop,2)=acerto;
+     
      mat(loop)=loop;
      clear tabelaAux;
      clear tabelaAux2;
@@ -67,36 +77,36 @@ cab= base.textdata;
  % Será realizado testes com os algoritmos com os dados da tabela
  % descritor "matrizCompleta", utilizando o o rotulo original de cada linha
  % para medir qual maior valor.
- parada=4000;
- for loop =1 : size(matrizCompleta,1)
-     
-     %%%% CART
-%      nb=fitctree(matrizCompleta{loop,1}.matriz,base.data(:,end),'Crossval','on');  
-%      isErro = kfoldLoss(nb);
-%      acerto=100-(isErro*100);
-%      matrizPlot(loop,1)=acerto;
+ %parada=4000;
+%  for loop =1 : size(matrizCompleta,1)
 %      
-%      nb=fitctree(matrizCompleta{loop,2}.matriz,base.data(:,end),'Crossval','on');  
-%      isErro = kfoldLoss(nb);
-%      acerto=100-(isErro*100);
-%      matrizPlot(loop,2)=acerto;
-
-     %%%%%% NAIVE BAYES
-     nb=fitcnb(matrizCompleta{loop,1}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
-     isErro = kfoldLoss(nb);
-     acerto=100-(isErro*100);
-     matrizPlot(loop,1)=acerto;
-     nb=fitcnb(matrizCompleta{loop,2}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
-     isErro = kfoldLoss(nb);
-     acerto=100-(isErro*100);
-     matrizPlot(loop,2)=acerto;
-      if(loop==3000) 
-       disp('linhas matriz plot ');
-       disp(loop);
-       parada=parada+loop;
-     end
-     
- end
+%      %%%% CART
+% %      nb=fitctree(matrizCompleta{loop,1}.matriz,base.data(:,end),'Crossval','on');  
+% %      isErro = kfoldLoss(nb);
+% %      acerto=100-(isErro*100);
+% %      matrizPlot(loop,1)=acerto;
+% %      
+% %      nb=fitctree(matrizCompleta{loop,2}.matriz,base.data(:,end),'Crossval','on');  
+% %      isErro = kfoldLoss(nb);
+% %      acerto=100-(isErro*100);
+% %      matrizPlot(loop,2)=acerto;
+% 
+%      %%%%%% NAIVE BAYES
+% %      nb=fitcnb(matrizCompleta{loop,1}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+% %      isErro = kfoldLoss(nb);
+% %      acerto=100-(isErro*100);
+% %      matrizPlot(loop,1)=acerto;
+% %      nb=fitcnb(matrizCompleta{loop,2}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
+% %      isErro = kfoldLoss(nb);
+% %      acerto=100-(isErro*100);
+% %      matrizPlot(loop,2)=acerto;
+% %       if(loop==3000) 
+% %        disp('linhas matriz plot ');
+% %        disp(loop);
+% %        parada=parada+loop;
+% %      end
+%      
+%  end
 
 figure;
 plot(matrizPlot(:,1));
