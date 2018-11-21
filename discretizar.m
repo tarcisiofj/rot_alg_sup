@@ -11,7 +11,7 @@ switch metodo
             for i=1:size(dados, 2)
                 minimo = min(dados(:, i));
                 maximo = max(dados(:, i));
-                intervalo = (maximo - minimo) / (nFaixas+1);
+                intervalo = (maximo - minimo) / (nFaixas);
                 
                 % C�lculo das faixas
                 faixas.(['a',int2str(i-1)]).('min') = minimo;

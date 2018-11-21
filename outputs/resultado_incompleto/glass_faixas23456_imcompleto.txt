@@ -1,0 +1,3205 @@
+======= RESULTADO  EFD ==========Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+
+
+======= Atributos Relevantes ==========
+Grupo  1:  Ba  
+Grupo  2:  Ba  
+Grupo  3:  Ba  
+Grupo  4:  Ca  
+Grupo  5:  K   Ba   Fe  
+Grupo  6:  Fe  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	38
+3 	26
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	21
+2 	25
+3 	17
+4 	7
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	4
+3 	5
+4 	27
+5 	23
+6 	11
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	22
+3 	30
+4 	5
+5 	1
+6 	0
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	12
+3 	4
+4 	20
+5 	18
+6 	5
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	14
+2 	8
+3 	46
+4 	2
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	28
+3 	20
+4 	13
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	69
+2 	0
+3 	1
+4 	0
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	50
+2 	12
+3 	6
+4 	2
+GRUPO 2:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	35
+2 	23
+3 	18
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	18
+2 	35
+3 	20
+4 	3
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	7
+3 	7
+4 	23
+5 	15
+6 	12
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	11
+3 	14
+4 	33
+5 	9
+6 	3
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	14
+3 	15
+4 	19
+5 	14
+6 	7
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	10
+2 	10
+3 	38
+4 	18
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	36
+2 	17
+3 	8
+4 	15
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	75
+2 	0
+3 	0
+4 	1
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	47
+2 	14
+3 	11
+4 	4
+GRUPO 3:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	5
+3 	4
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	5
+3 	7
+4 	3
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	6
+4 	5
+5 	3
+6 	3
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	2
+3 	7
+4 	3
+5 	1
+6 	0
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	3
+3 	6
+4 	3
+5 	2
+6 	0
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	5
+2 	1
+3 	11
+4 	0
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	8
+3 	8
+4 	1
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	17
+2 	0
+3 	0
+4 	0
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	13
+2 	2
+3 	1
+4 	1
+GRUPO 4:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	0
+3 	9
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	5
+3 	1
+4 	1
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	1
+3 	0
+4 	0
+5 	0
+6 	0
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	1
+4 	5
+5 	3
+6 	4
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	3
+3 	1
+4 	1
+5 	1
+6 	4
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	5
+3 	2
+4 	5
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	0
+3 	0
+4 	10
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	0
+3 	0
+4 	1
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	0
+3 	1
+4 	1
+GRUPO 5:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	1
+3 	6
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	1
+4 	8
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	3
+3 	0
+4 	0
+5 	0
+6 	0
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	1
+3 	0
+4 	3
+5 	2
+6 	1
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	4
+4 	2
+5 	0
+6 	3
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+4 	0
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	0
+3 	2
+4 	5
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+4 	0
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+4 	0
+GRUPO 6:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	19
+2 	6
+3 	4
+Na = 4 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	0
+3 	4
+4 	24
+Mg = 6 faixas:
+Faixa 	Qtd Elementos
+1 	26
+2 	0
+3 	3
+4 	0
+5 	0
+6 	0
+AL = 6 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	1
+3 	2
+4 	0
+5 	10
+6 	16
+Si = 6 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	0
+3 	2
+4 	3
+5 	9
+6 	12
+K = 4 faixas:
+Faixa 	Qtd Elementos
+1 	22
+2 	1
+3 	1
+4 	5
+Ca = 4 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	13
+3 	12
+4 	1
+Ba = 4 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	9
+3 	7
+4 	10
+Fe = 4 faixas:
+Faixa 	Qtd Elementos
+1 	29
+2 	0
+3 	0
+4 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	38
+Na 	2 	25
+Mg 	4 	27
+AL 	3 	30
+Si 	4 	20
+K 	3 	46
+Ca 	2 	28
+Ba 	1 	69
+Fe 	1 	50
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	35
+Na 	2 	35
+Mg 	4 	23
+AL 	4 	33
+Si 	4 	19
+K 	3 	38
+Ca 	1 	36
+Ba 	1 	75
+Fe 	1 	47
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	8
+Na 	3 	7
+Mg 	3 	6
+AL 	3 	7
+Si 	3 	6
+K 	3 	11
+Ca 	2 	8
+Ba 	1 	17
+Fe 	1 	13
+
+Grupo : 4
+Atributo 	Faixa 	Qtd_Rep
+RI 	3 	9
+Na 	1 	6
+Mg 	1 	12
+AL 	4 	5
+Si 	6 	4
+K 	2 	5
+Ca 	4 	10
+Ba 	1 	12
+Fe 	1 	11
+
+Grupo : 5
+Atributo 	Faixa 	Qtd_Rep
+RI 	3 	6
+Na 	4 	8
+Mg 	1 	6
+AL 	4 	3
+Si 	3 	4
+K 	1 	9
+Ca 	4 	5
+Ba 	1 	9
+Fe 	1 	9
+
+Grupo : 6
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	19
+Na 	4 	24
+Mg 	1 	26
+AL 	6 	16
+Si 	6 	12
+K 	1 	22
+Ca 	2 	13
+Ba 	4 	10
+Fe 	1 	29
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	Ba 	[0.000000 ~ 0.270000] 	69 		1 	1.428571
+2 	76 	Ba 	[0.000000 ~ 0.270000] 	75 		1 	1.315789
+3 	17 	Ba 	[0.000000 ~ 0.270000] 	17 		0 	0.000000
+4 	13 	Ca 	[9.490000 ~ 16.190000] 	10 		3 	23.076923
+5 	9 	K 	[0.000000 ~ 0.160000] 	9 		0 	0.000000
+5 	9 	Ba 	[0.000000 ~ 0.270000] 	9 		0 	0.000000
+5 	9 	Fe 	[0.000000 ~ 0.090000] 	9 		0 	0.000000
+6 	29 	Fe 	[0.000000 ~ 0.090000] 	29 		0 	0.000000
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   90.0000   61.4286   57.1429   48.5714   48.5714   78.5714   64.2857   98.5714   68.5714
+   78.9474   55.2632   52.6316   47.3684   30.2632   60.5263   73.6842   98.6842   61.8421
+   76.4706   58.8235   70.5882   70.5882   47.0588   88.2353   70.5882  100.0000   76.4706
+   92.3077   53.8462   92.3077   53.8462   61.5385   61.5385  100.0000   92.3077   84.6154
+   88.8889   88.8889   66.6667   22.2222   55.5556  100.0000   77.7778  100.0000  100.0000
+   62.0690   82.7586   86.2069   79.3103   51.7241   79.3103   75.8621   37.9310  100.0000
+
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+
+
+======= RESULTADO COM FAIXAS 3 - EFD ==========
+
+======= Atributos Relevantes ==========
+Grupo  1:  Ba  
+Grupo  2:  Ba  
+Grupo  3:  Ba  
+Grupo  4:  Mg  
+Grupo  5:  Na   Mg   K   Ba   Fe  
+Grupo  6:  Fe  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	38
+3 	26
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	27
+2 	32
+3 	11
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	38
+3 	28
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	34
+2 	35
+3 	1
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	23
+2 	24
+3 	23
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	20
+2 	33
+3 	17
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	16
+2 	38
+3 	16
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	69
+2 	1
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	55
+2 	9
+3 	6
+GRUPO 2:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	35
+2 	23
+3 	18
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	31
+2 	37
+3 	8
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	20
+2 	33
+3 	23
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	17
+2 	48
+3 	11
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	21
+2 	34
+3 	21
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	29
+3 	36
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	43
+2 	16
+3 	17
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	75
+2 	0
+3 	1
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	50
+2 	16
+3 	10
+GRUPO 3:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	5
+3 	4
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	12
+3 	3
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	12
+3 	5
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	9
+3 	1
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	9
+3 	2
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	9
+3 	2
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	11
+3 	3
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	17
+2 	0
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	14
+2 	1
+3 	2
+GRUPO 4:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	0
+3 	9
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	4
+3 	1
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	13
+2 	0
+3 	0
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	6
+3 	7
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	2
+3 	5
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	6
+3 	6
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	0
+3 	10
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	0
+3 	1
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	0
+3 	2
+GRUPO 5:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	1
+3 	6
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	9
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	4
+3 	2
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	6
+3 	3
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	0
+3 	7
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+GRUPO 6:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	19
+2 	6
+3 	4
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	2
+3 	26
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	26
+2 	3
+3 	0
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	2
+3 	26
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	5
+3 	21
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	23
+2 	0
+3 	6
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	18
+3 	4
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	11
+3 	12
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	29
+2 	0
+3 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	38
+Na 	2 	32
+Mg 	2 	38
+AL 	2 	35
+Si 	2 	24
+K 	2 	33
+Ca 	2 	38
+Ba 	1 	69
+Fe 	1 	55
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	35
+Na 	2 	37
+Mg 	2 	33
+AL 	2 	48
+Si 	2 	34
+K 	3 	36
+Ca 	1 	43
+Ba 	1 	75
+Fe 	1 	50
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	8
+Na 	2 	12
+Mg 	2 	12
+AL 	2 	9
+Si 	2 	9
+K 	2 	9
+Ca 	2 	11
+Ba 	1 	17
+Fe 	1 	14
+
+Grupo : 4
+Atributo 	Faixa 	Qtd_Rep
+RI 	3 	9
+Na 	1 	8
+Mg 	1 	13
+AL 	3 	7
+Si 	1 	6
+K 	2 	6
+Ca 	3 	10
+Ba 	1 	12
+Fe 	1 	11
+
+Grupo : 5
+Atributo 	Faixa 	Qtd_Rep
+RI 	3 	6
+Na 	3 	9
+Mg 	1 	9
+AL 	2 	4
+Si 	2 	6
+K 	1 	9
+Ca 	3 	7
+Ba 	1 	9
+Fe 	1 	9
+
+Grupo : 6
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	19
+Na 	3 	26
+Mg 	1 	26
+AL 	3 	26
+Si 	3 	21
+K 	1 	23
+Ca 	2 	18
+Ba 	3 	12
+Fe 	1 	29
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	Ba 	[0.000000 ~ 0.540000] 	69 		1 	1.428571
+2 	76 	Ba 	[0.000000 ~ 0.540000] 	75 		1 	1.315789
+3 	17 	Ba 	[0.000000 ~ 0.540000] 	17 		0 	0.000000
+4 	13 	Mg 	[0.000000 ~ 3.090000] 	13 		0 	0.000000
+5 	9 	Na 	[13.750000 ~ 17.380000] 	9 		0 	0.000000
+5 	9 	Mg 	[0.000000 ~ 3.090000] 	9 		0 	0.000000
+5 	9 	K 	[0.000000 ~ 0.310000] 	9 		0 	0.000000
+5 	9 	Ba 	[0.000000 ~ 0.540000] 	9 		0 	0.000000
+5 	9 	Fe 	[0.000000 ~ 0.110000] 	9 		0 	0.000000
+6 	29 	Fe 	[0.000000 ~ 0.110000] 	29 		0 	0.000000
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   90.0000   70.0000   65.7143   64.2857   70.0000   72.8571   78.5714   98.5714   77.1429
+   76.3158   56.5789   77.6316   67.1053   51.3158   63.1579   76.3158   98.6842   64.4737
+   82.3529   88.2353   82.3529   76.4706   76.4706   76.4706   76.4706  100.0000   82.3529
+   84.6154   61.5385  100.0000   69.2308   23.0769   61.5385   92.3077   92.3077   84.6154
+   77.7778  100.0000  100.0000   22.2222   77.7778  100.0000   77.7778  100.0000  100.0000
+   55.1724   89.6552   93.1034   89.6552   68.9655   86.2069   65.5172   34.4828  100.0000
+
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: The number of folds K is greater than the number of observations with non-missinggroup values. K will be set to the number
+of observations with non-missing group values. 
+> In cvpartition (line 192)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+Warning: One or more folds do not contain points from all the groups. 
+> In cvpartition>stra_kfoldcv (line 535)
+  In cvpartition/rerandom (line 461)
+  In cvpartition (line 197)
+  In classreg.learning.generator.Partitioner (line 52)
+  In classreg.learning.modelparams.EnsembleParams/makeGenerator (line 349)
+  In classreg.learning.modelparams.EnsembleParams/fillDefaultParams (line 589)
+  In classreg.learning.modelparams.ModelParams/fillIfNeeded (line 93)
+  In classreg.learning.classif.FullClassificationModel (line 35)
+  In classreg.learning.classif.ClassificationEnsemble (line 68)
+  In classreg.learning.partition.ClassificationPartitionedModel (line 159)
+  In classreg.learning.FitTemplate/fit (line 258)
+  In ClassificationKNN.fit (line 851)
+  In fitcknn (line 230)
+  In rotina_AlgoritmosSupervisionados_arvoreDecisao (line 59) 
+
+
+======= RESULTADO COM FAIXAS 3 - EWD ==========
+
+======= Atributos Relevantes ==========
+Grupo  1:  Mg   K   Ba  
+Grupo  2:  K  
+Grupo  3:  Mg   K   Ca   Ba  
+Grupo  4:  AL   Ba  
+Grupo  5:  K   Ba   Fe  
+Grupo  6:  Fe  
+======= ================== ===========
+
+===== Quantidades de elementos nas FAIXAS de cada ATRIBUTO =====
+
+GRUPO 1:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	6
+2 	61
+3 	3
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	65
+3 	5
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	70
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	16
+2 	54
+3 	0
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	25
+3 	45
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	70
+2 	0
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	63
+3 	0
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	70
+2 	0
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	55
+2 	12
+3 	3
+GRUPO 2:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	32
+2 	35
+3 	9
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	66
+3 	3
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	10
+2 	2
+3 	64
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	61
+3 	4
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	29
+3 	43
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	76
+2 	0
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	29
+2 	36
+3 	11
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	75
+2 	0
+3 	1
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	53
+2 	17
+3 	6
+GRUPO 3:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	7
+2 	10
+3 	0
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	14
+3 	2
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	0
+3 	17
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	5
+2 	12
+3 	0
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	8
+3 	9
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	17
+2 	0
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	17
+3 	0
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	17
+2 	0
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	14
+2 	2
+3 	1
+GRUPO 4:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	8
+3 	1
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	11
+3 	0
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	8
+2 	4
+3 	1
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	9
+3 	4
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	3
+3 	7
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	10
+2 	1
+3 	2
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	3
+3 	7
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	12
+2 	0
+3 	1
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	11
+2 	0
+3 	2
+GRUPO 5:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	7
+3 	0
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	2
+3 	7
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	4
+2 	3
+3 	2
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	6
+3 	1
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	3
+3 	6
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	5
+3 	2
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	9
+2 	0
+3 	0
+GRUPO 6:  
+RI = 3 faixas:
+Faixa 	Qtd Elementos
+1 	18
+2 	9
+3 	2
+Na = 3 faixas:
+Faixa 	Qtd Elementos
+1 	1
+2 	4
+3 	24
+Mg = 3 faixas:
+Faixa 	Qtd Elementos
+1 	23
+2 	3
+3 	3
+AL = 3 faixas:
+Faixa 	Qtd Elementos
+1 	0
+2 	8
+3 	21
+Si = 3 faixas:
+Faixa 	Qtd Elementos
+1 	2
+2 	3
+3 	24
+K = 3 faixas:
+Faixa 	Qtd Elementos
+1 	27
+2 	2
+3 	0
+Ca = 3 faixas:
+Faixa 	Qtd Elementos
+1 	3
+2 	26
+3 	0
+Ba = 3 faixas:
+Faixa 	Qtd Elementos
+1 	14
+2 	7
+3 	8
+Fe = 3 faixas:
+Faixa 	Qtd Elementos
+1 	29
+2 	0
+3 	0
+
+===== Faixas dos Atributos que mais se repetem por GRUPO =====
+
+Grupo : 1
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	61
+Na 	2 	65
+Mg 	3 	70
+AL 	2 	54
+Si 	3 	45
+K 	1 	70
+Ca 	2 	63
+Ba 	1 	70
+Fe 	1 	55
+
+Grupo : 2
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	35
+Na 	2 	66
+Mg 	3 	64
+AL 	2 	61
+Si 	3 	43
+K 	1 	76
+Ca 	2 	36
+Ba 	1 	75
+Fe 	1 	53
+
+Grupo : 3
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	10
+Na 	2 	14
+Mg 	3 	17
+AL 	2 	12
+Si 	3 	9
+K 	1 	17
+Ca 	2 	17
+Ba 	1 	17
+Fe 	1 	14
+
+Grupo : 4
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	8
+Na 	2 	11
+Mg 	1 	8
+AL 	2 	9
+Si 	3 	7
+K 	1 	10
+Ca 	3 	7
+Ba 	1 	12
+Fe 	1 	11
+
+Grupo : 5
+Atributo 	Faixa 	Qtd_Rep
+RI 	2 	7
+Na 	3 	7
+Mg 	1 	4
+AL 	2 	6
+Si 	3 	6
+K 	1 	9
+Ca 	2 	5
+Ba 	1 	9
+Fe 	1 	9
+
+Grupo : 6
+Atributo 	Faixa 	Qtd_Rep
+RI 	1 	18
+Na 	3 	24
+Mg 	1 	23
+AL 	3 	21
+Si 	3 	24
+K 	1 	27
+Ca 	2 	26
+Ba 	1 	14
+Fe 	1 	29
+
+
+===== RESULTADO =====
+
+Grupo 	#Elem 	Atributo 	Faixa_Min~Faixa_Max 	Acerto 		Erros 	#Tx_Erros
+1 	70 	Mg 	[2.245000 ~ 4.490000] 	70 		0 	0.000000
+1 	70 	K 	[0.000000 ~ 1.552500] 	70 		0 	0.000000
+1 	70 	Ba 	[0.000000 ~ 0.787500] 	70 		0 	0.000000
+2 	76 	K 	[0.000000 ~ 1.552500] 	76 		0 	0.000000
+3 	17 	Mg 	[2.245000 ~ 4.490000] 	17 		0 	0.000000
+3 	17 	K 	[0.000000 ~ 1.552500] 	17 		0 	0.000000
+3 	17 	Ca 	[8.120000 ~ 10.810000] 	17 		0 	0.000000
+3 	17 	Ba 	[0.000000 ~ 0.787500] 	17 		0 	0.000000
+4 	13 	AL 	[1.092500 ~ 1.895000] 	9 		4 	30.769231
+4 	13 	Ba 	[0.000000 ~ 0.787500] 	12 		1 	7.692308
+5 	9 	K 	[0.000000 ~ 1.552500] 	9 		0 	0.000000
+5 	9 	Ba 	[0.000000 ~ 0.787500] 	9 		0 	0.000000
+5 	9 	Fe 	[0.000000 ~ 0.127500] 	9 		0 	0.000000
+6 	29 	Fe 	[0.000000 ~ 0.127500] 	29 		0 	0.000000
+
+======= TABELA EM PORCENTAGEM DOS ATRIBUTOS IMPORTANTES ==========
+   90.0000   91.4286  100.0000   90.0000   55.7143  100.0000   71.4286  100.0000   77.1429
+   71.0526   84.2105   90.7895   80.2632   60.5263  100.0000   76.3158   98.6842   67.1053
+   76.4706   82.3529  100.0000   76.4706   82.3529  100.0000  100.0000  100.0000   82.3529
+   84.6154   84.6154   53.8462   92.3077   76.9231   76.9231   76.9231   92.3077   84.6154
+   77.7778   77.7778   11.1111   66.6667   66.6667  100.0000   66.6667  100.0000  100.0000
+   75.8621   82.7586   79.3103   68.9655   79.3103   93.1034   89.6552   51.7241  100.0000
+
+>> 
