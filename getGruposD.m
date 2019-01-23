@@ -23,7 +23,6 @@ celula=struct('mat',mat,'grp',0);
 vet_grupos(1,length(classes)).mat=mat;
 vet_grupos(1,length(classes)).grp=0;
 
-
 % Percorrer a base separando todas as classes em grupos(arquivos)
 % distintos;
 % Aqui ele faz um loop ate o final do arquivo de classes, para pegar o

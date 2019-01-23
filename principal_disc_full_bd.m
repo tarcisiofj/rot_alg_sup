@@ -6,7 +6,7 @@
 %
 numfaixa=3;         % quantidade de faixas dos valores a serem discretizado,
                     %  maior q 1;
-V=0;                % porcentagem de abrangencia dos valore do rótulo, 
+V=0;                   % porcentagem de abrangencia dos valore do rótulo, 
                     %  ex. -10 e +10
 l=0;                % num linhas da tabela;
 tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
@@ -17,10 +17,12 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 
 % Importa o base de dados (dos 3 parâmetros o 1o. é a base, o 2o. é o
 % delimitador dos campos e 3o. é a linha de cabeçalho qeu existe)
-base=importdata('glass_ok.txt',',',1);
+base=importdata('iris_ok.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
+
+% Rotina de geração de melhor faixa %
 
 % Inicia a discretização. Ao final do loop uma variavel matrizCompleta irá
 % guardar em da linha uma estrutura seguida de matriz discretizada e
@@ -35,7 +37,7 @@ cab= base.textdata;
 % discretização da 1a.col com 2 faixas, a 2a. col com 3 faixas e a 3a. col 
 % com 2 faixas.
 % m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
- m=geraMatrizArranjo(size(base.data,2)-1,[3 4 5 6]);
+ m=geraMatrizArranjo(size(base.data,2)-1,[3 4]);
  md=flip(m,2); % espelha a matriz m;
  parada=2000;
  for loop =1: size(md,1)
@@ -74,40 +76,7 @@ cab= base.textdata;
  
  end
 
- % Será realizado testes com os algoritmos com os dados da tabela
- % descritor "matrizCompleta", utilizando o o rotulo original de cada linha
- % para medir qual maior valor.
- %parada=4000;
-%  for loop =1 : size(matrizCompleta,1)
-%      
-%      %%%% CART
-% %      nb=fitctree(matrizCompleta{loop,1}.matriz,base.data(:,end),'Crossval','on');  
-% %      isErro = kfoldLoss(nb);
-% %      acerto=100-(isErro*100);
-% %      matrizPlot(loop,1)=acerto;
-% %      
-% %      nb=fitctree(matrizCompleta{loop,2}.matriz,base.data(:,end),'Crossval','on');  
-% %      isErro = kfoldLoss(nb);
-% %      acerto=100-(isErro*100);
-% %      matrizPlot(loop,2)=acerto;
-% 
-%      %%%%%% NAIVE BAYES
-% %      nb=fitcnb(matrizCompleta{loop,1}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
-% %      isErro = kfoldLoss(nb);
-% %      acerto=100-(isErro*100);
-% %      matrizPlot(loop,1)=acerto;
-% %      nb=fitcnb(matrizCompleta{loop,2}.matriz,base.data(:,end),'DistributionNames','kernel','Crossval','on');
-% %      isErro = kfoldLoss(nb);
-% %      acerto=100-(isErro*100);
-% %      matrizPlot(loop,2)=acerto;
-% %       if(loop==3000) 
-% %        disp('linhas matriz plot ');
-% %        disp(loop);
-% %        parada=parada+loop;
-% %      end
-%      
-%  end
-
+ 
 figure;
 plot(matrizPlot(:,1));
 figure;
@@ -139,9 +108,13 @@ else
     end
 end
 
+
+
+% Um loop irá fazer o teste com os dois métodos de discretização.
+ 
 %mat_disc = matrizCompleta{maiorValorInd,metodoDiscretizacao}.matriz;
 FAIXA_3=1; % Indicar qual linha da tabela descritora "md" está a combinação
-           % de todas as colunas serem divididas em três faixas;
+           % de todas as colunas serem divididas em três faixas se começar com 3 e.g. [3 4 5 ];
 
 for nvezes=1:3
     if nvezes==1
@@ -155,6 +128,7 @@ for nvezes=1:3
         rotina_AlgoritmosSupervisionados_arvoreDecisao;
         matriz_atr_imp = atrImportantes(vet_acerto,V);
         contReg=0;
+        
         
         
         % ============================================

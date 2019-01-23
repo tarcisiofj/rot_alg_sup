@@ -1,4 +1,4 @@
-[y]=getGruposD(based);
+[y]=getGrupos(base);
 n_grupos=length(y(end,:));
 
 %iris_ok - naive bayes - distributionNames = mvmn
@@ -18,15 +18,15 @@ for ngrp=1:n_grupos
         % Funcao retorna nesta variavel as colunas que não sao classes da
         % matriz;
         vet_col_semClasse=getMatrizSemClasseX(grupo,classe);      
-        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','mvmn');
-        
+               
         %=================================================================
         %%% Para aplicar NaiveBayes descomentar a linha abaixo de acordo
         %%% com  a distribuição desejada, kernel ou crossval
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
-        %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
-        %isErro = kfoldLoss(nb);
+        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+        
+        isErro = kfoldLoss(nb);
         
         %=================================================================
         
@@ -43,15 +43,16 @@ for ngrp=1:n_grupos
                   % TIRA AQUI COMENTARIO P CART. 
                   %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
-            % metodo para achar a matriz de confusão    
-            %islabel = resubPredict(nb);
-            %mc = confusionmat(grupo(:,classe),islabel);
+        % metodo para achar a matriz de confusão    
+        %islabel = resubPredict(nb);
+        %mc = confusionmat(grupo(:,classe),islabel);
         
         % Taxa de erro em cima dos dados do grupo apresentados e classe
         % esclhida
-         %isErro = resubLoss(nb);
-         % TIRA AQUI O COMENTARIO TB PARA CART. 
-         %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
+        %isErro = resubLoss(nb);
+        
+        % TIRA AQUI O COMENTARIO TB PARA CART. 
+        %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
         
         %===============================================================
         
@@ -59,9 +60,9 @@ for ngrp=1:n_grupos
         %%% Aplicaçao com o algoritmo knn
         
           % TIRA AQUI COMENTARIO P KNN. 
-          knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
+          %knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
           % TIRA TB AQUI COMENTARIO P KNN.   
-          isErro = kfoldLoss(knn);
+          %isErro = kfoldLoss(knn);
                 
         
         %===============================================================
@@ -75,37 +76,7 @@ for ngrp=1:n_grupos
         % conteúdo da célula o valor;  
         vet_acerto(ngrp,classe)=100-(isErro*100);
         
-        %===============================================================
-        % fazer 10 calculos utilizando a mesma matriz so que embaralhando
-        % suas linhas para verificar se existe diferença entre os
-        % resultados
-        %matriz = [grupo(:,vet_col_semClasse) grupo(:,classe)];
-        %for qtdTest = 1 : 10 
-         %   [treino,teste] = embaralhaMatTreinTest(matriz,80);
-            %nb1 = fitcnb(treino(:,1:end-1),treino(:,end),'DistributionNames','kernel','Crossval','on');
-            %isErro = kfoldLoss(nb1,'LossFun','ClassifErr');
-            
-          %  nb1 = fitcnb(treino(:,1:end-1),treino(:,end),'DistributionNames','kernel');
-           % isErro = resubLoss(nb1,'LossFun','ClassifErr');
-            
-           % isErrGen = loss(nb1,teste(:,1:end-1),teste(:,end));
-            
-        %end
-        %===============================================================
-      
+        
        
     end  
 end
-
-%matrizInd = atrImportantes(vet_acerto,5);
-
-% percorrer os grupos e recuperar os que tiveram maior porcentagem de
-% acerto na matriz vet_acerto;
-%for  g=1:(n_grupos)
-%   maiorElem=max(vet_acerto(g,:));
-%   vetor=vet_grupo(g,:);
-   
-    
-%end
-    
- 

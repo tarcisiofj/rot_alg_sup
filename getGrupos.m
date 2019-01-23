@@ -5,10 +5,11 @@
 % E retorna uma matriz a partir dos dados do arquivo txt;
 function [y,cabecalho] = getGrupos(arquivo)
 % 
- fisher=importdata(arquivo,',',1);
- [linhas,cols]=size(fisher.data);
- cabecalho= fisher.textdata;
-
+ %fisher=importdata(arquivo,',',1);
+ %[linhas,cols]=size(fisher.data);
+ %cabecalho= fisher.textdata;
+fisher=arquivo;
+[linhas,cols]=size(fisher.data);
 % crio abaixo um arquivo com todos os valores possíveis de classes,
 % referente a coluna indicada (Coluna 5 do arquivo da base dados).
 classes=unique(fisher.data(:,end));

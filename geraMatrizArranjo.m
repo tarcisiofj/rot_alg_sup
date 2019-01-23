@@ -13,11 +13,11 @@ while ind<natrib
     %if ind~=(natrib-1)
     %ind=ind+1;
     %end
-    l=1;
+    l=0;
     while l<num_linhas
         for elem = 1:nfaixas
             for qtdElem = 1:nfaixas^ind % repetir o numero de vezes cada elemento da faixa aparece em sequencia
-                matriz(l,ind+1) = faixas(elem);
+                matriz(l+1,ind+1) = faixas(elem);
                 l = l+1;
             end
         end
