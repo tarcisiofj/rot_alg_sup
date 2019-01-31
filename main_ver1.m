@@ -5,7 +5,7 @@
 %
 numfaixa=3;         % quantidade de faixas dos valores a serem discretizado,
                     %  maior q 1;
-V=0;                   % porcentagem de abrangencia dos valore do rótulo, 
+V=0 ;                   % porcentagem de abrangencia dos valore do rótulo, 
                     %  ex. -10 e +10
 l=0;                % num linhas da tabela;
 tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
@@ -16,7 +16,7 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 
 % Importa o base de dados (dos 3 parâmetros o 1o. é a base, o 2o. é o
 % delimitador dos campos e 3o. é a linha de cabeçalho qeu existe)
-base=importdata('iris_ok.txt',',',1);
+base=importdata('seedsL.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
@@ -39,9 +39,10 @@ cab= base.textdata;
 % m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
 % A matriCompleta vai tera combinação de todas as tabelas referente a
 % tabela descritora.
- m=geraMatrizArranjo(size(base.data,2)-1,[3 4]);
+ m=geraMatrizArranjo(size(base.data,2)-1,[3]);
  md=flip(m,2); % espelha a matriz m;
  parada=2000;
+ %md = [4 4 4 4 4 10 4 10 10];
  for loop =1: size(md,1)
      for cols=1: size(md,2)
         [mat_disc,faix] = discretizar(base.data(:,cols),'EFD',md(loop,cols));

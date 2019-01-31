@@ -24,10 +24,17 @@ for ngrp=1:n_grupos
         %%% com  a distribuição desejada, kernel ou crossval
         %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
-        nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
+           %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel','CrossVal','on');
         
-        isErro = kfoldLoss(nb);
+           %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
+           
+           %nb=fitcnb(grupo(:,vet_col_semClasse),grupo(:,classe),'DistributionNames','kernel');
         
+           %isErro = resubLoss(nb);
+           
+            
+           
+           
         %=================================================================
         
         %=================================================================
@@ -41,7 +48,7 @@ for ngrp=1:n_grupos
         
         % classification tree
                   % TIRA AQUI COMENTARIO P CART. 
-                  %nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
+                  nb=fitctree(grupo(:,vet_col_semClasse),grupo(:,classe),'Crossval','on');
         
         % metodo para achar a matriz de confusão    
         %islabel = resubPredict(nb);
@@ -52,7 +59,7 @@ for ngrp=1:n_grupos
         %isErro = resubLoss(nb);
         
         % TIRA AQUI O COMENTARIO TB PARA CART. 
-        %isErro = kfoldLoss(nb,'LossFun','ClassifErr');
+        isErro = kfoldLoss(nb,'LossFun','ClassifErr');
         
         %===============================================================
         
@@ -62,7 +69,7 @@ for ngrp=1:n_grupos
           % TIRA AQUI COMENTARIO P KNN. 
           %knn=fitcknn(grupo(:,vet_col_semClasse),grupo(:,classe),'CrossVal','on','NumNeighbors',4);
           % TIRA TB AQUI COMENTARIO P KNN.   
-          %isErro = kfoldLoss(knn);
+          %isErro = kfoldLoss(knn,'LossFun','ClassifErr');
                 
         
         %===============================================================
