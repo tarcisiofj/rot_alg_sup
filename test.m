@@ -1,4 +1,3 @@
-% ====================  =============  ====================================
 %
 % Área de definição de variáveis
 %
@@ -39,42 +38,57 @@ cab= base.textdata;
 % m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
 % A matriCompleta vai tera combinação de todas as tabelas referente a
 % tabela descritora.
-  m=geraMatrizArranjo(size(base.data,2)-1,[3]);
-  md=flip(m,2); % espelha a matriz m;
-  parada=2000;
+%  m=geraMatrizArranjo(size(base.data,2)-1,[3]);
+%  md=flip(m,2); % espelha a matriz m;
+%  parada=2000;
 %  %md = [4 4 4 4 4 10 4 10 10];
-  for loop =1: size(md,1)
-      for cols=1: size(md,2)
-         [mat_disc,faix] = discretizar(base.data(:,cols),'EFD',md(loop,cols));
-         tabelaAux.matriz(:,cols)=mat_disc(:,1);
-         tabelaAux.faixas(cols)=faix;
-         clear mat_disc;
-         [mat_disc,faix] = discretizar(base.data(:,cols),'EWD',md(loop,cols));
-         tabelaAux2.matriz(:,cols)=mat_disc(:,1);
-         tabelaAux2.faixas(cols)=faix;
-         clear mat_disc;
- 
-      end     
-      matrizCompleta{loop,1}=tabelaAux; % linha 1
-      matrizCompleta{loop,2}=tabelaAux2;
-           
-      if(loop==parada) 
-        disp('linhas matriz completa ');
-        disp(loop);
-        parada=parada+loop;
-      end
-      
-  end
+%  for loop =1: size(md,1)
+%      for cols=1: size(md,2)
+%         [mat_disc,faix] = discretizar(base.data(:,cols),'EFD',md(loop,cols));
+%         tabelaAux.matriz(:,cols)=mat_disc(:,1);
+%         tabelaAux.faixas(cols)=faix;
+%         clear mat_disc;
+%         [mat_disc,faix] = discretizar(base.data(:,cols),'EWD',md(loop,cols));
+%         tabelaAux2.matriz(:,cols)=mat_disc(:,1);
+%         tabelaAux2.faixas(cols)=faix;
+%         clear mat_disc;
+% 
+%      end     
+%      matrizCompleta{loop,1}=tabelaAux; % linha 1
+%      matrizCompleta{loop,2}=tabelaAux2;
+%           
+%      if(loop==parada) 
+%        disp('linhas matriz completa ');
+%        disp(loop);
+%        parada=parada+loop;
+%      end
+%      
+%  end
  
  %% Rotina de execução e impressão
+ 
+[mat_disc,faix] = discretizar(base.data(:,1:7),'EFD',numfaixa);
+tabelaAux.matriz=mat_disc;
+tabelaAux.faixas=faix;
+clear mat_disc;
+[mat_disc,faix] = discretizar(base.data(:,1:7),'EWD',numfaixa);
+tabelaAux2.matriz=mat_disc(:,1);
+tabelaAux2.faixas=faix;
+clear mat_disc
+
+matrizCompleta{1,1}=tabelaAux; % linha 1
+matrizCompleta{1,2}=tabelaAux2;
 
 %based.data = [mat_disc base.data(:,end)];
 rotinaAlgSupervisionados_NB_CART_KNN;
 matriz_atr_imp = atrImportantes(vet_acerto,V);
 contReg=0;
 
-          
- for metodoDisc=1:2
+%[mat_disc,faix] = discretizar(base.data(:,1:7),'EFD',3); % acrescido para Seed
+%based.data = [mat_disc base.data(:,end)];
+%[y_disc]=getGrupos(based); 
+
+for metodoDisc=1:2
         metodoDiscretizacao=metodoDisc; %EFD =1, EWD=2
         if metodoDiscretizacao==1
             fprintf('\n\n======= RESULTADO  EFD ==========');
@@ -88,7 +102,7 @@ contReg=0;
                      
            mat_disc = matrizCompleta{linhaTabDescritora,metodoDiscretizacao}.matriz;
            based.data = [mat_disc base.data(:,end)];
-           [y_disc]=getGrupos(based);
+          [y_disc]=getGrupos(based);
            
           % fprintf('\n\n======= RESULTADO COM FAIXAS 3 - EFD ==========');
            % ============================================
@@ -133,7 +147,7 @@ contReg=0;
                    % Funcao recebe uma coluna e retorna a quantidade de elementos
                    % de cada faixa em um vetor.
                    % md é a tabela descritora que irá dizer qual é o número de faixas
-                   qtdElemFaix{grp,frc} = numElements(matriz_grupo(:,frc),md(linhaTabDescritora,frc));
+                   qtdElemFaix{grp,frc} = numElements(matriz_grupo(:,frc),numfaixa);
                    [elem,ind]=max(qtdElemFaix{grp,frc});
                    eleFaixMatDisc(n).grp=grp;
                    eleFaixMatDisc(n).atr=frc;
@@ -166,7 +180,7 @@ contReg=0;
                        for indice=1: length(eleFaixMatDisc)
                            if eleFaixMatDisc(indice).atr==atr && eleFaixMatDisc(indice).grp==grp
                                ind=eleFaixMatDisc(indice).faixa;           % n. da faixa que o rotulo tem maior frequencia
-                               faix = matrizCompleta{linhaTabDescritora,metodoDiscretizacao}.faixas(atr).a0; % limites das faixas
+                                faix = matrizCompleta{linhaTabDescritora,metodoDiscretizacao}.faixas.(['a',int2str(atr-1)]); % limites das faixas % limites das faixas
                                tabela{l,5}=eleFaixMatDisc(indice).qtdRep; % quantidade de elementos no rotulo
                            end
                        end
@@ -175,7 +189,7 @@ contReg=0;
                            tabela{l,3}=faix.min;
                            tabela{l,4}=faix.(['f',int2str(ind)]);
                        else
-                           if ind==md(linhaTabDescritora,atr)        % se for a última faixa                     ;
+                           if ind==numfaixa %md(linhaTabDescritora,atr)        % se for a última faixa                     ;
                                tabela{l,3}=faix.(['f',int2str(ind-1)]);
                                tabela{l,4}=faix.max;
                            else                    % não sendo a primeira e nem a última
@@ -252,4 +266,3 @@ contReg=0;
             disp(vet_acerto);
             matrizCompleta{linhaTabDescritora,metodoDiscretizacao}.faixas.a0
  end
- 

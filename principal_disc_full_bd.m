@@ -17,7 +17,7 @@ tabela=cell(0,5);   % tabela que armazena: cluster,atributo,
 
 % Importa o base de dados (dos 3 parâmetros o 1o. é a base, o 2o. é o
 % delimitador dos campos e 3o. é a linha de cabeçalho qeu existe)
-base=importdata('iris_ok.txt',',',1);
+base=importdata('seeds.txt',',',1);
 
 % Pega a primeira linha da base de dados
 cab= base.textdata;
@@ -37,7 +37,7 @@ cab= base.textdata;
 % discretização da 1a.col com 2 faixas, a 2a. col com 3 faixas e a 3a. col 
 % com 2 faixas.
 % m=geraMatrizArranjo(size(base.data,2)-1,[2 3 4 5 6 7 8 9 10]);
- m=geraMatrizArranjo(size(base.data,2)-1,[3 4]);
+ m=geraMatrizArranjo(size(base.data,2)-1,[3]);
  md=flip(m,2); % espelha a matriz m;
  parada=2000;
  for loop =1: size(md,1)
